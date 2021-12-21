@@ -22,8 +22,8 @@ let package = Package(
         .target(
             name: "CGExtender",
             dependencies: []),
-        .testTarget(
-            name: "CGExtenderTests",
-            dependencies: ["CGExtender"]),
+        // .testTarget(
+        //     name: "CGExtenderTests",
+        //     dependencies: ["CGExtender"]),
     ]
 )
